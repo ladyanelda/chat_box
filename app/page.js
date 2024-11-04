@@ -67,6 +67,7 @@ export default function Home() {
     }
   }
 
+  // similar to the box model //
   return (
     <Box
       width="100vw"

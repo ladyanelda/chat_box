@@ -24,8 +24,7 @@ console.log('API Key:', process.env.OPENAI_API_KEY); // This should print your A
 // POST function to handle incoming requests
 export async function POST(req) {
   // Create a new instance of the OpenAI client with the API key from environment variables
-  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KE });
   const data = await req.json(); // Parse the JSON body of the incoming request
 
   try {
